@@ -1,0 +1,16 @@
+{
+  "filters": {
+    "size_3": {
+      "cross": [[0, 1, 0], [1, 1, 1], [0, 1, 0]],
+      "x":     [[1, 0, 1], [0, 1, 0], [1, 0, 1]]
+    }
+  },
+  "patterns": {
+    "size_3_1": { "input": [[0, 1, 0], [1, 1, 1], [0, 1, 0]], "expected": " CROSS " },
+    "size_3_2": { "input": [[0, 1, 0], [1, 1, 1]],            "expected": "+" },
+    "size_3_3": { "input": [[1, 0, 1], [0, 1, 0], [1, 0, 1]], "expected": "circle" },
+    "size_7_1": { "input": [[1]],                              "expected": "x" },
+    "pattern_1": { "input": [[1]],                             "expected": "x" },
+    "size_3_4": { "input": [[1, 0, 1], [0, 1, 0], [1, 0, 1]], "expected": "+" }
+  }
+}
